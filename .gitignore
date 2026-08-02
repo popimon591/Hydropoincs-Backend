@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+.env
+db.sqlite3
+
+# IDE
+.idea/
+.vscode/
+
+# AI / Artifacts
+.artifacts/
+
+# Logs
+*.log
