@@ -19,10 +19,13 @@ from django.contrib import admin
 from django.urls import path,include
 from importlib import import_module
 
+from hydro.health import health_check
+
 
 
 urlpatterns = [
     path("admin/", admin.site.urls),
+    path("health/", health_check, name="health-check"),
     path('api/v1/sensor/', include("hydro.api.v1.sensor.urls")),
     path("api/v1/user/", include("hydro.api.v1.user.urls")),
 ]
