@@ -1,6 +1,9 @@
-# Tasks - Backend API Harmonization
+# Tasks - IoT Business Logic & Mobile Integration
 
-- `[x]` Update `sensor/urls.py` with new endpoints
-- `[x]` Implement `HomeView` and update existing views in `sensor/views.py`
-- `[x]` Ensure API responses follow `{"success": true, "data": ...}` format
-- `[x]` Verify backend startup and endpoints
+- `[x]` Implement Backend Models (`sensor/models.py`)
+- `[x]` Implement Backend Serializers (`serializer.py`)
+- `[x]` Implement Backend API Views with Logic (`views.py`)
+- `[x]` Configure URL Routing (`urls.py`)
+- `[x]` Create Android Kotlin Models (`Models.kt`)
+- `[x]` Create Android Retrofit Interface (`ApiService.kt`)
+- `[ ]` Run Backend Migrations & Final Verification

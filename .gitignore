@@ -2,7 +2,9 @@ venv/
 __pycache__/
 *.pyc
 .env
+*firebase-adminsdk*.json
 db.sqlite3
+staticfiles/
 
 # IDE
 .idea/
